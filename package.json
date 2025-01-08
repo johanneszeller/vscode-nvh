@@ -1,0 +1,38 @@
+{
+  "name": "vscode-nvh",
+  "displayName": "NVH (Name-Value Hierarchy)",
+  "description": "Language support for the NVH (Name-Value Hierarchy) language.",
+  "version": "0.1.0",
+  "publisher": "johanneszeller",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.4.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "nvh",
+        "aliases": [
+          "NVH (Name-Value Hierarchy)"
+        ],
+        "extensions": [
+          ".nvh"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "nvh",
+        "scopeName": "text.nvh",
+        "path": "./syntaxes/nvh.tmLanguage.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "bitbucket:johanneszeller/vscode-nvh.git"
+  }
+}
