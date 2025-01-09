@@ -3,6 +3,10 @@
   "name": "NVH (Name-Value Hierarchy)",
   "patterns": [
     {
+      "name": "comment.line.number-sign.nvh",
+      "match": "\\s*#.*"
+    },
+    {
       "name": "meta.node.nvh",
       "match": "[ \\t]*([^:]+)(:)(.*)",
       "captures": {
